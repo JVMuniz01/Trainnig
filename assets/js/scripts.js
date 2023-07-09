@@ -19,6 +19,8 @@ form.addEventListener('submit', function (event) {
         description = 'Peso ideal!';
     } else if (bmi > 25 && bmi <= 30) {
         description = 'Peso ideal!';
+    } else {
+        description = 'Cuidado, obesidade morbida!';
     }
     value.textContent = bmi;
     document.getElementById('descricption').textContent = description;
